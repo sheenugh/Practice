@@ -1,0 +1,3 @@
+Use the define function in creating a program of:
+How much is the change of user if the price of the ice cream is 150 and the yogurt is 100. 
+However, you will ask the user on how many will he/she bought.
