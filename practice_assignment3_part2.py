@@ -1,22 +1,32 @@
 #pseudocode
 
+
+# -- IMPORTS ---
+
+
+# --- FUNCTIONS ---
+def ask_user_to_input_a_number(fruit_type):
+    return int(input("Please input a number of " + fruit_type + " you want to buy: "))
+
+def computation_of_the_total_amount_of_the_fruits(type_of_fruit, fruit_price):
+    return type_of_fruit * fruit_price
+
+# --- ACTUAL CODES ---
 # - Ask user for the total number of apples he/she wants to buy
-asking_the_total_number_of_apples_a_user_wants_to_buy = int(input("Please input a number: "))
-print("The user wants to buy: " + str(asking_the_total_number_of_apples_a_user_wants_to_buy) + " apples")
+apple_type = ask_user_to_input_a_number("apples")
 
-print("\n")
+# - Ask user for the total number of oranges he/she wants to buy
+orange_type = ask_user_to_input_a_number("oranges")
 
-# - Ask user user for the total number of oranges he/she wants to buy
-asking_the_total_number_of_oranges_a_user_wants_to_buy = int(input("Please input a number: "))
-print("The user wants to buy: " + str(asking_the_total_number_of_oranges_a_user_wants_to_buy) + " oranges")
+# - Price
+apples_price = 20
+orange_price = 30 
 
-# - Assigning price for apple and orange
-apple = 20
-oranges = 60
+# - Computation
+total_amount_of_apple = computation_of_the_total_amount_of_the_fruits(apple_type, apples_price)
+total_amount_of_orange = computation_of_the_total_amount_of_the_fruits(orange_type, orange_price)
+overall_amount = total_amount_of_apple + total_amount_of_orange
 
-print("\n")
-
-# - Compute and Displaying the total amount
-total_amount = (apple * asking_the_total_number_of_apples_a_user_wants_to_buy) + (oranges * asking_the_total_number_of_apples_a_user_wants_to_buy)
-print("The total amount that the user bought is " + str(total_amount) + " pesos.")
+# - Displaying the output
+print("The total amount that the user bought is " + str(overall_amount))
 
