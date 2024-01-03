@@ -1,3 +1,7 @@
-Create a program that will ask how many apples and orange you want to buy
-Display the total amount you need to pay if apple price is 20 and orange is 15
+Program 1
+Create a program that will ask how many apples and orange you want to buy.
+Display the total amount you need to pay if apple price is 20 and orange is 15.
 Display the output/receipt.
+
+Note: Both program should use define function
+
