@@ -1,6 +1,8 @@
-#pseudocode
+#Sheena Mae D. Delima
+#BSCPE 1-5 
 
 
+#------------------------------------------------------------
 # -- IMPORTS ---
 
 
@@ -11,14 +13,16 @@ def ask_user_to_input_a_number(fruit_type):
 def computation_of_the_total_amount_of_the_fruits(type_of_fruit, fruit_price):
     return type_of_fruit * fruit_price
 
+
 # --- ACTUAL CODES ---
+# pseudocode
 # - Ask user for the total number of apples he/she wants to buy
 apple_type = ask_user_to_input_a_number("apples")
 
 # - Ask user for the total number of oranges he/she wants to buy
 orange_type = ask_user_to_input_a_number("oranges")
 
-# - Price
+# - Fruit price
 apples_price = 20
 orange_price = 30 
 
