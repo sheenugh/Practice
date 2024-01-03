@@ -12,6 +12,6 @@ print("The user wants to buy: " + str(asking_the_total_number_of_oranges_a_user_
 
 # - Assigning price for apple and orange
 apple = 20
-oranges = 40
+oranges = 60
 
 
