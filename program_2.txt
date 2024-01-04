@@ -1,4 +1,4 @@
-Program 2 | By Sheena
+Program 2 | By Sheena (Displaying the Change Money)
 Use the define function in creating a program of:
 How much is the change of user if the user's money is 5,000, and the price of the ice cream is 150 and the yogurt is 100. 
 However, you will ask the user on how many will he/she bought.

@@ -1,4 +1,4 @@
-Program 1
+Program 1 (Displaying the Total Amount)
 Create a program that will ask how many apples and orange you want to buy.
 Display the total amount you need to pay if apple price is 20 and orange is 15.
 Display the output/receipt.
